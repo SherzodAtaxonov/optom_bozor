@@ -1,0 +1,38 @@
+.orders-page {
+  max-width: 900px;
+  margin: auto;
+}
+
+.orders-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.orders-page table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.orders-page th, .orders-page td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.status.success {
+  background-color: #38a169;
+}
+
+.status.pending {
+  background-color: #dd6b20;
+}

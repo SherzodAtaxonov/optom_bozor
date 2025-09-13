@@ -1,0 +1,91 @@
+/* src/styles/Reports.css */
+
+/* Umumiy konteyner */
+.reports-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 80vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Bo‘lim sarlavhasi */
+.reports-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Jadval stili */
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.reports-table th,
+.reports-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.reports-table th {
+  background-color: #1e90ff;
+  color: white;
+  font-weight: bold;
+}
+
+.reports-table tr:hover {
+  background-color: #f1f3f5;
+}
+
+/* Hisobot kartalari */
+.report-card {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.report-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #1e90ff;
+}
+
+.report-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Filtr va qidiruv inputlari */
+.reports-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.reports-filters input,
+.reports-filters select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.reports-filters button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1e90ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reports-filters button:hover {
+  background-color: #0077cc;
+}

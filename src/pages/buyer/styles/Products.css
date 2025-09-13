@@ -1,0 +1,42 @@
+.product-page {
+  max-width: 900px;
+  margin: auto;
+}
+
+.product-detail {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.product-detail img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-detail .info {
+  flex: 1;
+}
+
+.product-detail h2 {
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #2b6cb0;
+}
